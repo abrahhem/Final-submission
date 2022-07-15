@@ -1,0 +1,232 @@
+{
+	"sectors" : [
+		{
+			"sector_id" : 0,
+			"name" : "Loans",
+			"Categories" : [ 
+				{
+					"name" : "Money lenders",
+					"category_id" : 0
+				},
+				{
+					"name" : "Mortgage",
+					"category_id" : 1
+				}, 
+				{
+					"name" : "industrial",
+					"category_id" : 2
+				},
+				{
+					"name" : "Pawn",
+					"category_id" : 3
+				},
+				{
+					"name" : "Student loan",
+					"category_id" : 4
+				},
+				{
+					"name" : "Other",
+					"category_id" : 5
+				}
+			],
+			"quantity" : false,
+			"address" : false,
+			"title" : {
+				"set" : true,
+				"name" : "Purpose"
+			},
+			"Description" : true,
+			"img_url": "images/sectors/loan.jpeg"
+		},
+		{
+			"sector_id" : 1,
+			"name" : "Real Estate",
+			"Categories" : [ 
+				{
+					"name" : "residential",
+					"category_id" : 0
+				},
+				{
+					"name" : "commercial",
+					"category_id" : 1
+				}, 
+				{
+					"name" : "industrial",
+					"category_id" : 2
+				},
+				{
+					"name" : "raw land",
+					"category_id" : 3
+				},
+				{
+					"name" : "Other",
+					"category_id" : 4
+				}
+			],
+			"quantity" : false,
+			"address" : true,
+			"title" : {
+				"set" : true,
+				"name" : "Square size"
+			},
+			"Description" : true,
+			"img_url": "images/sectors/real-estate.jpeg"
+		},
+		{
+			"sector_id" : 2,
+			"name" : "Materials",
+			"Categories" : [ 
+				{
+					"name" : "metals",
+					"category_id" : 0
+				},
+				{
+					"name" : "polymers",
+					"category_id" : 1
+				},
+				{
+					"name" : "ceramics",
+					"category_id" : 2
+				},
+				{
+					"name" : "composites",
+					"category_id" : 3
+				},
+				{
+					"name" : "Other",
+					"category_id" : 4
+				}
+			],
+			"quantity" : true,
+			"address" : false,
+			"title" : {
+				"set" : true,
+				"name" : "Weight"
+			},
+			"Description" : true,
+			"img_url": "images/sectors/material.jpeg"
+		},
+		{
+			"sector_id" : 3,
+			"name" : "Stocks",
+			"Categories" : [ 
+				{
+					"name" : "healthcare",
+					"category_id" : 0
+				}, 
+				{
+					"name" : "consumer staples",
+					"category_id" : 1
+				}, 
+				{
+					"name" : "utilities",
+					"category_id" : 2
+				},
+				{
+					"name" : "energy",
+					"category_id" : 3
+				}, 
+				{
+					"name" : "industrials",
+					"category_id" : 4
+				}, 
+				{
+					"name" : "consumer",
+					"category_id" : 5
+				},
+				{
+					"name" : "consumer services",
+					"category_id" : 6
+				}, 
+				{
+					"name" : "financials",
+					"category_id" : 7
+				}, 
+				{
+					"name" : "technology",
+					"category_id" : 8
+				},
+				{
+					"name" : "Other",
+					"category_id" : 9
+				}
+			],
+			"quantity" : true,
+			"address" : false,
+			"title" : {
+				"set" : false,
+				"name" : null
+			},
+			"Description" : false,
+			"img_url": "images/sectors/stocks.jpeg"
+		},
+		{
+			"sector_id" : 4,
+			"name" : "Long term fund",
+			"Categories" : [ 
+				{
+					"name" : "Pension",
+					"category_id" : 0
+				},
+				{
+					"name" : "Savings plan",
+					"category_id" : 1
+				},
+				{
+					"name" : "Mutual Funds",
+					"category_id" : 2
+				},
+				{
+					"name" : "Other",
+					"category_id" : 3
+				}
+			],
+			"quantity" : false,
+			"address" : false,
+			"title" : {
+				"set" : false,
+				"name" : null
+			},
+			"Description" : true,
+			"img_url": "images/sectors/Long-term-fund.jpeg"
+		},
+		{
+			"sector_id" : 5,
+			"name" : "Foreign Exchange",
+			"Categories" : [
+				{
+					"name" : "Other",
+					"category_id" : 0
+				}
+			],
+			"quantity" : true,
+			"address" : false,
+			"title" : {
+				"set" : false,
+				"name" : null
+			},
+			"Description" : false,
+			"img_url": "images/sectors/foreign-exchange.jpeg"
+
+		},
+		{
+			"sector_id" : 6,
+			"name" : "Other",
+			"Categories" : [
+				{
+					"name" : "Other",
+					"category_id" : 0
+				}
+			],
+			"quantity" : true,
+			"address" : true,
+			"title" : {
+				"set" : true,
+				"name" : "General"
+			},
+			"Description" : true,
+			"img_url": "images/sectors/other.jpeg"
+
+		}	
+	]
+}
